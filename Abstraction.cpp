@@ -10,7 +10,7 @@ public:
     }
 };
 
-class B :public A{
+class B : public A{
     public:
     void show(){
         cout << "This is a show function of derived class.." << endl;
